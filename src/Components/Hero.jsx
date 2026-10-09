@@ -1,4 +1,5 @@
 import React from "react";
+import heroImg from "../c8dfa6312c2d8ae9f9373b8ebeb680371e67d3a1.png";
 
 const Hero = () => {
   return (
@@ -30,7 +31,7 @@ const Hero = () => {
 
       <div className="hero-right">
         <img
-          src="/src/c8dfa6312c2d8ae9f9373b8ebeb680371e67d3a1.png"
+          src={heroImg}
           alt="Traveler"
         />
       </div>
